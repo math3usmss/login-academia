@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #181818;
+}
+
+body{
+  background: #F8F8F8;
+}
+
+form input{
+  margin: 10px 0;
+}
+
+label{
+  display: block;
+  font-weight: 500;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: #181818;
+}
+
+img{
+  display: block;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.campo{
+  background: none;
+  border-radius: 12px;
+  width: 312px;
+  height: 41px;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+  font-family: "poppins";
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  font-family: "poppins";
+}
+
+.area-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.area-login h1{
+  font-size: 2.1rem;
+  font-weight: 500;
+  line-height: 3.1rem;
+  color: #030303;
+  text-align: center;
+}
+
+.area-login h2{
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+  color: #636364;
+  text-align: center;
+  margin-bottom: 37px;
+}
+
+.lembrar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.lembrar label{
+  display: inline-block;
+}
+
+.lembrar input{
+  margin-left: 10px;
+}
+
+.botoes{
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  font-family: "poppins";
+  font-weight: 500;
+  font-family: 0.9rem;
+}
+
+.logar{
+  background: #EA454C;
+  color: #fff;
+  border: transparent;
+}
+
+.logar-google{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  font-family: "poppins";
+  font-weight: 500;
+  font-family: 0.9rem;
+}
+
+.area-login p {
+  font-size: 0.7rem;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.area-login p a{
+  color: #EA454C;
+}
+
+footer{
+  text-align: center;
+  font-family: "poppins";
+  padding: 20px;
+}
